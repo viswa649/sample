@@ -9,6 +9,10 @@ create or replace TABLE AGENT (
 	primary key (AGENT_ID)
 );
 
+create or replace view agent_vw
+AS
+select * from AGENT;
+
 
 
 
